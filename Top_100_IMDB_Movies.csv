@@ -1,26 +1,101 @@
-Name of movie,Year of relase,Watchtime,Movie Rating,Metascore,Votes,Classification
-1. The Shawshank Redemption,1994,2h 22m,8.6,82,2.9M,R(A)
-2. The Godfather,1972,2h 55m,8.6,100,2M,M18
-3. The Godfather: Part II,1974,3h 22m,8.6,90,1.4M,PG
-4. The Dark Knight,2008,2h 32m,8.6,84,2.9M,PG
-5. 12 Angry Men,1957,1h 36m,8.6,97,874K,PG
-6. Schindler's List,1993,3h 15m,8.6,95,1.5M,R(A)
-7. The Lord of the Rings: The Return of the King,2003,3h 21m,8.6,94,2M,PG
-8. Pulp Fiction,1994,2h 34m,8.6,95,2.2M,R
-"9. The Good, the Bad and the Ugly",1966,2h 41m,8.6,90,817K,PG
-10. Fight Club,1999,2h 19m,8.6,67,2.3M,R(A)
-11. Joker,2019,2h 2m,8.6,59,1.5M,NC16
-12. The Lord of the Rings: The Fellowship of the Ring,2001,2h 58m,8.6,92,2M,PG
-13. Forrest Gump,1994,2h 22m,8.6,82,2.3M,PG
-14. Inception,2010,2h 28m,8.6,74,2.6M,PG
-15. Star Wars: Episode V - The Empire Strikes Back,1980,2h 4m,8.6,82,1.4M,PG
-16. The Lord of the Rings: The Two Towers,2002,2h 59m,8.6,87,1.8M,PG
-17. The Matrix,1999,2h 16m,8.6,73,2.1M,PG
-18. One Flew Over the Cuckoo's Nest,1975,2h 13m,8.6,84,1.1M,PG
-19. GoodFellas,1990,2h 25m,8.6,92,1.3M,M18
-20. Seven Samurai,1954,3h 27m,8.6,98,369K,PG
-21. Se7en,1995,2h 7m,8.6,65,1.8M,M18
-22. City of God,2002,2h 10m,8.6,79,806K,R21
-23. Life Is Beautiful,1997,1h 56m,8.6,58,748K,PG
-24. The Silence of the Lambs,1991,1h 58m,8.6,86,1.6M,PG
-25. Star Wars,1977,2h 1m,8.6,90,1.5M,PG
+Name of movie,Description,Year of relase,Watchtime,Classification,Movie Rating,Metascore,Votes
+1. The Shawshank Redemption,"Over the course of several years, two convicts form a friendship, seeking consolation and, eventually, redemption through basic compassion.",1994,2h 22m,15,8.3,82,2.9M
+2. The Godfather,"Don Vito Corleone, head of a mafia family, decides to hand over his empire to his youngest son, Michael. However, his decision unintentionally puts the lives of his loved ones in grave danger.",1972,2h 55m,15,8.3,100,2M
+3. The Dark Knight,"When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",2008,2h 32m,12A,8.3,84,2.9M
+4. Schindler's List,"In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",1993,3h 15m,15,8.3,95,1.5M
+5. The Lord of the Rings: The Return of the King,Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.,2003,3h 21m,12A,8.3,94,2M
+6. 12 Angry Men,The jury in a New York City murder trial is frustrated by a single member whose skeptical caution forces them to more carefully consider the evidence before jumping to a hasty verdict.,1957,1h 36m,U,8.3,97,874K
+7. The Godfather Part II,"The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.",1974,3h 22m,X,8.3,90,1.4M
+8. The Lord of the Rings: The Fellowship of the Ring,A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.,2001,2h 58m,PG,8.3,92,2M
+9. Pulp Fiction,"The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",1994,2h 34m,18,8.3,95,2.2M
+10. 12th Fail,The real-life story of IPS Officer Manoj Kumar Sharma and IRS Officer Shraddha Joshi.,2023,2h 27m,12A,8.3,,121K
+11. Forrest Gump,"The history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who yearns to be reunited with his childhood sweetheart.",1994,2h 22m,12,8.3,82,2.3M
+12. Inception,"A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.",2010,2h 28m,12A,8.3,74,2.6M
+13. Fight Club,An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.,1999,2h 19m,15,8.3,67,2.3M
+14. The Lord of the Rings: The Two Towers,"While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",2002,2h 59m,12A,8.3,87,1.8M
+"15. The Good, the Bad and the Ugly",A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery.,1966,2h 28m,18,8.3,90,817K
+16. Interstellar,"When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.",2014,2h 49m,12A,8.3,74,2.1M
+17. The Matrix,"When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",1999,2h 16m,15,8.3,73,2.1M
+18. GoodFellas,"The story of Henry Hill and his life in the mafia, covering his relationship with his wife Karen and his mob partners Jimmy Conway and Tommy DeVito.",1990,2h 25m,18,8.3,92,1.3M
+19. One Flew Over the Cuckoo's Nest,"In the Fall of 1963, a Korean War veteran and criminal pleads insanity and is admitted to a mental institution, where he rallies up the scared patients against the tyrannical nurse.",1975,2h 13m,15,8.3,84,1.1M
+20. Star Wars: Episode V - The Empire Strikes Back,"After the Rebel Alliance are overpowered by the Empire, Luke Skywalker begins his Jedi training with Yoda, while his friends are pursued across the galaxy by Darth Vader and bounty hunter Boba Fett.",1980,2h 4m,U,8.3,82,1.4M
+21. Jai Bhim,"When a tribal man is arrested for a case of alleged theft, his wife turns to a human-rights lawyer to help bring justice.",2021,2h 44m,Not Rated,8.3,,218K
+22. Soorarai Pottru,"Nedumaaran Rajangam ""Maara"" sets out to make the common man fly and in the process takes on the world's most capital intensive industry and several enemies who stand in his way.",2020,2h 33m,15,8.3,,125K
+23. 777 Charlie,Dharma is stuck in a rut with his negative and lonely lifestyle and spends each day in the comfort of his loneliness. A pup named Charlie enters his life and gives him a new perspective towards it.,2022,2h 44m,12A,8.3,,41K
+24. Rocketry: The Nambi Effect,"The story of Indian Space Research Organization scientist Nambi Narayanan, who was framed for being a spy and arrested in 1994.",2022,2h 37m,12A,8.3,,59K
+25. Dune: Part Two,Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family.,2024,2h 46m,12A,8.3,79,468K
+26. Spider-Man: Across the Spider-Verse,"Miles Morales catapults across the multiverse, where he encounters a team of Spider-People charged with protecting its very existence. When the heroes clash on how to handle a new threat, Miles must redefine what it means to be a hero.",2023,2h 20m,PG,8.3,86,384K
+27. The Green Mile,"A tale set on death row, where gentle giant John Coffey possesses the mysterious power to heal people's ailments. When the lead guard, Paul Edgecombe, recognizes John's gift, he tries to help stave off the condemned man's execution.",1999,3h 9m,18,8.3,61,1.4M
+28. The Silence of the Lambs,"A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims.",1991,1h 58m,18,8.3,86,1.6M
+29. Seven,"Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives.",1995,2h 7m,18,8.3,65,1.8M
+30. Star Wars: Episode IV - A New Hope,"Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.",1977,2h 1m,U,8.3,90,1.5M
+31. Saving Private Ryan,"Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.",1998,2h 49m,15,8.3,91,1.5M
+32. Spirited Away,"During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches and spirits, and where humans are changed into beasts.",2001,2h 5m,PG,8.3,96,859K
+33. City of God,"In the slums of Rio, two kids' paths diverge as one struggles to become a photographer and the other a kingpin.",2002,2h 10m,18,8.3,79,806K
+34. Terminator 2: Judgment Day,"A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her ten year old son John from an even more advanced and powerful cyborg.",1991,2h 17m,15,8.3,75,1.2M
+35. Life Is Beautiful,"When an open-minded Jewish waiter and his son become victims of the Holocaust, he uses a perfect mixture of will, humor and imagination to protect his son from the dangers around their camp.",1997,1h 56m,PG,8.3,58,748K
+36. Seven Samurai,"Farmers from a village exploited by bandits hire a veteran samurai for protection, who gathers six other samurai to join him.",1954,3h 27m,PG,8.3,98,369K
+37. It's a Wonderful Life,An angel is sent from Heaven to help a desperately frustrated businessman by showing him what life would have been like if he had never existed.,1946,2h 10m,U,8.3,89,502K
+38. Harakiri,"When a ronin requesting seppuku at a feudal lord's palace is told of the brutal suicide of another ronin who previously visited, he reveals how their pasts are intertwined - and in doing so challenges the clan's integrity.",1962,2h 13m,X,8.3,85,70K
+39. Gladiator,A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.,2000,2h 35m,15,8.3,67,1.6M
+40. Back to the Future,"Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.",1985,1h 56m,PG,8.3,87,1.3M
+41. The Lion King,"Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself.",1994,1h 28m,U,8.3,88,1.2M
+42. Alien,The crew of a commercial spacecraft encounters a deadly lifeform after investigating a mysterious transmission of unknown origin.,1979,1h 57m,X,8.3,89,959K
+43. Parasite,Greed and class discrimination threaten the newly-formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.,2019,2h 12m,15,8.3,97,975K
+44. The Departed,An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.,2006,2h 31m,18,8.3,85,1.4M
+45. Leon,"12-year-old Mathilda is reluctantly taken in by Léon, a professional assassin, after her family is murdered. An unusual relationship forms as she becomes his protégée and learns the assassin's trade.",1994,1h 50m,18,8.3,64,1.3M
+46. Django Unchained,"With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation owner in Mississippi.",2012,2h 45m,18,8.3,81,1.7M
+47. The Prestige,"After a tragic accident, two stage magicians in 1890s London engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.",2006,2h 10m,12A,8.3,66,1.5M
+48. Laapataa Ladies,"The misadventures of two young brides who get lost from the same train. From mistaken identities to laugh-out-aloud escapades, the ensuing chaos guarantees laughter galore and heartwarming moments.",2023,2h 2m,12A,8.3,,35K
+49. Whiplash,A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.,2014,1h 46m,15,8.3,89,1M
+50. The Usual Suspects,The sole survivor of a pier shoot-out tells the story of how a notorious criminal influenced the events that began with five criminals meeting in a seemingly random police lineup.,1995,1h 46m,18,8.3,76,1.2M
+51. American History X,"Living a life marked by violence, neo-Nazi Derek finally goes to prison after killing two black youths. Upon his release, Derek vows to change; he hopes to prevent his brother, Danny, who idolizes Derek, from following in his footsteps.",1998,1h 59m,18,8.3,62,1.2M
+52. Casablanca,A cynical expatriate American cafe owner struggles to decide whether or not to help his former lover and her fugitive husband escape the Nazis in French Morocco.,1942,1h 42m,U,8.3,100,610K
+53. Psycho,A secretary on the run for embezzlement takes refuge at a secluded California motel owned by a repressed man and his overbearing mother.,1960,1h 49m,15,8.3,97,724K
+54. The Pianist,"During WWII, acclaimed Polish musician Wladyslaw faces various struggles as he loses contact with his family. As the situation worsens, he hides in the ruins of Warsaw in order to survive.",2002,2h 30m,15,8.3,85,921K
+55. Rear Window,"A wheelchair-bound photographer spies on his neighbors from his Greenwich Village courtyard apartment window and, despite the skepticism of his fashion-model girlfriend, becomes convinced one of them has committed murder.",1954,1h 52m,PG,8.3,100,526K
+56. Untouchable,"After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.",2011,1h 52m,15,8.3,57,937K
+57. Once Upon a Time in the West,A mysterious stranger with a harmonica joins forces with a notorious desperado to protect a beautiful widow from a ruthless assassin working for the railroad.,1968,2h 46m,12,8.3,82,351K
+58. Grave of the Fireflies,A young boy and his little sister struggle to survive in Japan during World War II.,1988,1h 29m,12A,8.3,94,314K
+59. Cinema Paradiso,A filmmaker recalls his childhood when falling in love with the pictures at the cinema of his home village and forms a deep friendship with the cinema's projectionist.,1988,2h 54m,PG,8.3,80,285K
+60. Modern Times,The Tramp struggles to live in modern industrial society with the help of a young homeless woman.,1936,1h 27m,U,8.3,96,261K
+61. City Lights,"With the aid of a wealthy erratic tippler, a dewy-eyed tramp who has fallen in love with a sightless flower girl accumulates money to be able to help her medically.",1931,1h 27m,U,8.3,99,197K
+62. Sita Ramam,"An orphan soldier, Lieutenant Ram's life changes, after he gets a letter from a girl named Sita. He meets her and love blossoms between them. When he comes back to his camp in Kashmir,After he gets caught in jail, he sends a letter to Sita which won't reach her.",2022,2h 43m,12A,8.3,,70K
+63. 96,Two high school sweethearts meet at a reunion after 22 years and reminisce about their past.,2018,2h 38m,PG,8.3,,38K
+64. Avengers: Endgame,"After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",2019,3h 1m,12A,8.3,78,1.3M
+65. Inglourious Basterds,"In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same.",2009,2h 33m,18,8.3,69,1.6M
+66. Apocalypse Now,A U.S. Army officer serving in Vietnam is tasked with assassinating a renegade Special Forces Colonel who sees himself as a god.,1979,2h 27m,X,8.3,94,715K
+67. Joker,"Arthur Fleck, a party clown and a failed stand-up comedian, leads an impoverished life with his ailing mother. However, when society shuns him and brands him as a freak, he decides to embrace the life of crime and chaos in Gotham City.",2019,2h 2m,15,8.3,59,1.5M
+68. Aliens,"Decades after surviving the Nostromo incident, Ellen Ripley is sent out to re-establish contact with a terraforming colony but finds herself battling the Alien Queen and her offspring.",1986,2h 17m,18,8.3,84,769K
+69. The Dark Knight Rises,"Eight years after the Joker's reign of chaos, Batman is coerced out of exile with the assistance of the mysterious Selina Kyle in order to defend Gotham City from the vicious guerrilla terrorist Bane.",2012,2h 44m,12A,8.3,78,1.8M
+70. Avengers: Infinity War,The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.,2018,2h 29m,12A,8.3,68,1.2M
+71. The Shining,"A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future.",1980,2h 26m,X,8.3,68,1.1M
+72. Amadeus,"The life, success and troubles of Wolfgang Amadeus Mozart, as told by Antonio Salieri, the contemporaneous composer who was deeply jealous of Mozart's talent and claimed to have murdered him.",1984,2h 40m,PG,8.3,87,431K
+73. Raiders of the Lost Ark,"In 1936, archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before the Nazis can obtain its awesome powers.",1981,1h 55m,PG,8.3,86,1M
+74. Coco,"Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer.",2017,1h 45m,PG,8.3,81,600K
+75. Memento,"Leonard Shelby, an insurance investigator, suffers from anterograde amnesia and uses notes and tattoos to hunt for the man he thinks killed his wife, which is the last thing he remembers.",2000,1h 53m,15,8.3,83,1.3M
+76. Come and See,"After finding an old rifle, a young boy joins the Soviet resistance movement against ruthless German forces and experiences the horrors of World War II.",1985,2h 22m,15,8.3,,99K
+77. Spider-Man: Into the Spider-Verse,Teen Miles Morales becomes the Spider-Man of his universe and must join with five spider-powered individuals from other dimensions to stop a threat for all realities.,2018,1h 57m,PG,8.3,87,681K
+78. WALL·E,"In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",2008,1h 38m,U,8.3,95,1.2M
+79. Your Name.,"Two teenagers share a profound, magical connection upon discovering they are swapping bodies. Things manage to become even more complicated when the boy and girl decide to meet in person.",2016,1h 46m,12A,8.3,81,326K
+80. The Lives of Others,"In 1984 East Berlin, an agent of the secret police conducting surveillance on a writer and his lover finds himself becoming increasingly absorbed by their lives.",2006,2h 17m,15,8.3,89,413K
+81. Capernaum,"While serving a five-year sentence for a violent crime, a 12-year-old boy sues his parents for neglect.",2018,2h 6m,15,8.3,75,107K
+82. Sunset Blvd.,A screenwriter develops a dangerous relationship with a faded film star determined to make a triumphant return.,1950,1h 50m,PG,8.3,94,238K
+83. 3 Idiots,"Two friends are searching for their long lost companion. They revisit their college days and recall the memories of their friend who inspired them to think differently, even as the rest of the world called them ""idiots"".",2009,2h 50m,12A,8.3,67,439K
+84. Das Boot,A German U-boat stalks the frigid waters of the North Atlantic as its young crew experience the sheer terror and claustrophobic life of a submariner in World War II.,1981,2h 29m,AA,8.3,85,266K
+85. Paths of Glory,"After a failed attack on a German position, a general orders three soldiers, chosen at random, court-martialed for cowardice and their commanding officer must defend them.",1957,1h 28m,PG,8.3,90,214K
+86. Witness for the Prosecution,A veteran British barrister must defend his client in a murder trial that has surprise after surprise.,1957,1h 56m,U,8.3,76,139K
+87. The Great Dictator,Dictator Adenoid Hynkel tries to expand his empire while a poor Jewish barber tries to avoid persecution from Hynkel's regime.,1940,2h 5m,PG,8.3,,239K
+88. High and Low,An executive of a Yokohama shoe company becomes a victim of extortion when his chauffeur's son is kidnapped by mistake and held for ransom.,1963,2h 23m,12,8.3,90,54K
+89. Sardar Udham,"A biopic detailing the 2 decades that Punjabi Sikh revolutionary, Udham Singh, spent planning the assassination of the man responsible for the Jallianwala Bagh massacre.",2021,2h 44m,TV-MA,8.3,,48K
+90. Kaithi,"Dilli, an ex-convict, endeavours to meet his daughter for the first time after leaving prison. However, his attempts are interrupted due to a drug raid planned by Inspector Bejoy.",2019,2h 25m,12A,8.3,,43K
+91. Asuran,"The teenage son of a farmer from an underprivileged caste kills a rich, upper caste landlord. How the pacifist farmer saves his hot-blooded son is the rest of the story.",2019,2h 21m,12A,8.3,,34K
+92. Drishyam 2,A gripping tale of an investigation and a family which is threatened by it. Will Georgekutty be able to protect his family this time?,2021,2h 32m,12,8.3,,41K
+93. Oppenheimer,The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb.,2023,3h,15,8.3,90,765K
+94. Requiem for a Dream,The drug-induced utopias of four Coney Island people are shattered when their addictions run deep..,2000,1h 42m,18,8.3,71,905K
+95. Good Will Hunting,"Will Hunting, a janitor at MIT, has a gift for mathematics, but needs help from a psychologist to find direction in his life.",1997,2h 6m,15,8.3,71,1.1M
+96. American Beauty,A sexually frustrated suburban father has a mid-life crisis after becoming infatuated with his daughter's best friend.,1999,2h 2m,18,8.3,84,1.2M
+97. Heat,A group of high-end professional thieves start to feel the heat from the LAPD when they unknowingly leave a verbal clue at their latest heist.,1995,2h 50m,15,8.3,76,725K
+98. Up,"78-year-old Carl Fredricksen travels to Paradise Falls in his house equipped with balloons, inadvertently taking a young stowaway.",2009,1h 36m,U,8.3,88,1.1M
+99. Braveheart,Scottish warrior William Wallace leads his countrymen in a rebellion to free his homeland from the tyranny of King Edward I of England.,1995,2h 58m,15,8.3,68,1.1M
+100. Incendies,Twins journey to the Middle East to discover their family history and fulfill their mother's last wishes.,2010,2h 11m,15,8.3,80,205K
