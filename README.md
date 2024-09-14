@@ -2,6 +2,8 @@
 
 This project uses web scraping and data analysis techniques to collect and analyze information on the top 100 based on user rating movies listed on IMDb. The data is extracted using Selenium and BeautifulSoup, cleaned and transformed using Pandas, and visualized using Seaborn and Matplotlib.
 
+![Image Alt Text](static/images/IMDB.jpg)
+
 ## PROJECT OVERVIEW
 The goal of this project is to scrape IMDb's Top 1000 movies, clean and preprocess the data, and analyze various attributes such as:
 
